@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <script src="https://unpkg.com/feather-icons"></script>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>JobsCalc</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header>
+      <div id="menu" class="content">
+        <img id="logo" src="./img/JobsCalc.png" alt="" />
+        <span>Você tem 2 horas livres no seu dia</span>
+        <div id="profile">
+          <div id="user">
+            <h1>Joelson Dias</h1>
+            <a href="#">Ver Perfil</a>
+          </div>
+          <img
+            src="https://avatars.githubusercontent.com/u/38875073?v=4"
+            alt=""
+          />
+        </div>
+      </div>
+      <div id="summary" class="content">
+        <div id="status">
+          <div class="status-item">
+            <h2>12</h2>
+            <span>projetos ao total</span>
+          </div>
+  
+          <div class="status-item">
+            <h2>7</h2>
+            <span>em andamento</span>
+          </div>
+          <div class="status-item">
+            <h2>5</h2>
+            <span>Encerrados</span>
+          </div>
+        </div>
+        <button id="addButton">
+          <i data-feather="plus"></i>
+          Adicionar novo job
+        </button>
+      </div>
+    </header>
+       <main class="content">
+         <table>
+           <tr>
+             <td>1</td>
+             <td>Pizzaria Guloso</td>
+             <td>
+               <span>prazo</span>
+               3 dias para a entrega
+             </td>
+             <td>
+               <span> Valor</span>
+               R$ 4500,00
+             </td>
+             <td>
+               Em andamento
+             </td>
+             <td>
+               <button class="tableBtn"><i data-feather="edit-3"></i></button>
+               <button class="tableBtn"><i data-feather="trash"></i></button>
+             </td>
+           </tr>
+         </table>
+       </main>
+       
+       
+       <script>
+      feather.replace()
+    </script>
+  </body>
+</html>
